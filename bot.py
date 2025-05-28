@@ -45,4 +45,5 @@ if __name__ == "__main__":
         listen="0.0.0.0",
         port=int(os.environ.get("PORT", 10000)),
         webhook_url=WEBHOOK_URL
+	webhook_path=WEBHOOK_PATH,
     )
