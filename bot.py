@@ -4,7 +4,7 @@ from flask import Flask, request
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = "твой_токен"
+TOKEN = "7808173982:AAFEBJd3FDT8V-zErqg_EAufaq6FPRad5J0"
 WEBHOOK_PATH = f"/{TOKEN}"
 WEBHOOK_URL = f"https://domenbot.onrender.com{WEBHOOK_PATH}"
 
