@@ -87,4 +87,4 @@ async def main():
     print("✅ Бот запущен...")
     await app.run_polling()
 
-await main()
+asyncio.run(main())
